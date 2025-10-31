@@ -5,14 +5,12 @@
   "type": "module",
   "homepage": "https://dixit020.github.io/Moviescope-react-base/",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-}
-
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
@@ -36,4 +34,5 @@
   
 
 }
+
 
